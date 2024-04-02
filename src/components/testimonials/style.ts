@@ -9,4 +9,8 @@ export const Content = styled.div`
 	align-items: center;
 	gap: 2.5rem;
 	margin-top: 150px;
+
+	@media screen and (max-width: 940px) {
+		flex-direction: column;
+	}
 `;
