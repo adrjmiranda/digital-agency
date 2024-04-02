@@ -13,7 +13,7 @@ import HeroBg from '../../assets/img/hero-bg.png';
 
 const Header: FunctionComponent = (): ReactNode => {
 	return (
-		<Style.Container>
+		<Style.Container id='home'>
 			<Navbar />
 			<Wrapper>
 				<Style.Banner>

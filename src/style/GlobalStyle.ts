@@ -8,7 +8,9 @@ const GlobalStyle = createGlobalStyle`
     font-family: ${(props) => props.theme.fontFamily.montserrat};
   }
 
+  html,
   body {
+    scroll-behavior: smooth;
     overflow-x: hidden;
   }
 

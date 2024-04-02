@@ -10,7 +10,7 @@ import ServiceCard from '../service-card/indext';
 
 const Services: FunctionComponent = (): ReactNode => {
 	return (
-		<Style.Container>
+		<Style.Container id='services'>
 			<Wrapper>
 				<SessionTitle>Our services</SessionTitle>
 				<Style.Content>

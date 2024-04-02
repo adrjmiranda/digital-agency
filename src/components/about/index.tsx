@@ -16,7 +16,7 @@ import { SiAntdesign } from 'react-icons/si';
 
 const About: FunctionComponent = (): ReactNode => {
 	return (
-		<Style.Container>
+		<Style.Container id='about'>
 			<WaveTop />
 			<Wrapper>
 				<SessionTitle>Why choose us?</SessionTitle>

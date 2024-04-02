@@ -10,7 +10,7 @@ import TestimonialCard from '../testimonial-card';
 
 const Testimonials: FunctionComponent = (): ReactNode => {
 	return (
-		<Style.Container>
+		<Style.Container id='testimonials'>
 			<Wrapper>
 				<SessionTitle>See what our customers are saying</SessionTitle>
 				<Style.Content>

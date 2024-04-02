@@ -13,7 +13,7 @@ import { GrLinkedin } from 'react-icons/gr';
 
 const Contact: FunctionComponent = (): ReactNode => {
 	return (
-		<Style.Container>
+		<Style.Container id='contact'>
 			<Wrapper>
 				<SessionTitle>Follow us on our social networks</SessionTitle>
 				<Style.Content>
