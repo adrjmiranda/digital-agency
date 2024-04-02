@@ -1,4 +1,4 @@
-import { FunctionComponent, ReactNode } from 'react';
+import { FunctionComponent, ReactNode, useState } from 'react';
 
 // Components
 import Logo from '../logo';
@@ -6,11 +6,22 @@ import Logo from '../logo';
 // Style
 import * as Style from './style';
 
+// Icons
+import { ImMenu } from 'react-icons/im';
+
 const Navbar: FunctionComponent = (): ReactNode => {
+	const [visibilityMenu, setVisibilityMenu] = useState<boolean>(false);
+
 	return (
 		<Style.Container>
 			<Logo />
-			<Style.Menu>
+			<Style.ToggleMenu
+				type='button'
+				onClick={() => setVisibilityMenu(!visibilityMenu)}
+			>
+				<ImMenu />
+			</Style.ToggleMenu>
+			<Style.Menu className={visibilityMenu ? 'toggle-menu' : ''}>
 				<li>
 					<a href='#'>Home</a>
 				</li>

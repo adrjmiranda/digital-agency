@@ -9,6 +9,10 @@ export const Container = styled.div`
 		${(props) => props.theme.color.vibrantIndigo}
 	);
 	position: relative;
+
+	@media screen and (max-height: 950px) {
+		padding-bottom: 300px;
+	}
 `;
 
 export const Banner = styled.div`
@@ -45,5 +49,3 @@ export const Img = styled.div`
 		max-width: 100%;
 	}
 `;
-
-

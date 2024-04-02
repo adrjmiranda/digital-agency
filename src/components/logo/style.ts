@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.a`
 	display: flex;
 	align-items: center;
-	gap: 0.8rem;
+	gap: 0.5rem;
 	z-index: 1;
 
 	img {
@@ -12,7 +12,7 @@ export const Container = styled.a`
 
 	p {
 		display: flex;
-		gap: 0.5rem;
+		gap: 0.3rem;
 	}
 
 	p span {
