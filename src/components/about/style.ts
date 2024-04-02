@@ -4,12 +4,20 @@ export const Container = styled.div`
 	padding: 380px 0;
 	background-color: rgba(0, 0, 0, 0.05);
 	position: relative;
+
+	@media screen and (max-width: 890px) {
+		padding: 280px 0 380px;
+	}
 `;
 
 export const Content = styled.div`
 	margin-top: 4rem;
 	display: flex;
 	gap: 4rem;
+
+	@media screen and (max-width: 890px) {
+		flex-direction: column;
+	}
 `;
 
 export const List = styled.div`
