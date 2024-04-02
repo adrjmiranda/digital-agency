@@ -1,12 +1,14 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-	padding: 80px 0;
+	padding: 380px 0 80px;
+	overflow: hidden;
 	background-image: linear-gradient(
 		to right,
 		${(props) => props.theme.color.lemonYellow},
 		${(props) => props.theme.color.peachOrange}
 	);
+	position: relative;
 `;
 
 export const Content = styled.div`

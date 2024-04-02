@@ -2,6 +2,7 @@ import { FunctionComponent, ReactNode } from 'react';
 
 // Components
 import Logo from '../logo';
+import WaveTop from '../WaveTop';
 
 // Style
 import * as Style from './style';
@@ -15,6 +16,7 @@ import { RiMailSendLine } from 'react-icons/ri';
 const Footer: FunctionComponent = (): ReactNode => {
 	return (
 		<Style.Container>
+			<WaveTop />
 			<Wrapper>
 				<Style.Content>
 					<Style.Col>
