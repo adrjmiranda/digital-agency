@@ -16,6 +16,7 @@ export const Button = styled.button`
 	);
 	padding: 1rem 2rem;
 	border-radius: ${(props) => props.theme.borderRadius.brMedium};
+	text-transform: capitalize;
 	color: ${(props) => props.theme.color.neutralWhite};
 	font-size: ${(props) => props.theme.fontSize.fsMedium};
 	transition: ${(props) => props.theme.transitionType.trMedium};
