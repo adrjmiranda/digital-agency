@@ -1,6 +1,6 @@
 # Digital Agency
 
-This is a page design project developed for a gym using React. This project aims to create a modern user interface responsible for presenting the company's services.
+This is a page design project developed for a digital marketing agency using React. This project aims to create a modern responsive user interface to present the company's services.
 
 ## Installation
 
