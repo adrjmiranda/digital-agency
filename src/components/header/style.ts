@@ -13,12 +13,20 @@ export const Container = styled.div`
 	@media screen and (max-height: 950px) {
 		padding-bottom: 300px;
 	}
+
+	@media screen and (max-width: 1080px) {
+		padding-bottom: 380px;
+	}
 `;
 
 export const Banner = styled.div`
 	display: flex;
 	gap: 3rem;
 	align-items: center;
+
+	@media screen and (max-width: 1080px) {
+		flex-direction: column-reverse;
+	}
 `;
 
 export const Info = styled.div`
@@ -40,6 +48,10 @@ export const Info = styled.div`
 		font-size: ${(props) => props.theme.fontSize.fsMedium};
 		line-height: ${(props) => props.theme.lineHeight.lhSmall};
 	}
+
+	@media screen and (max-width: 1080px) {
+		flex: 30%;
+	}
 `;
 
 export const Img = styled.div`
@@ -47,5 +59,14 @@ export const Img = styled.div`
 
 	img {
 		max-width: 100%;
+	}
+
+	@media screen and (max-width: 1080px) {
+		flex: 100%;
+		display: flex;
+
+		img {
+			height: 80%;
+		}
 	}
 `;
