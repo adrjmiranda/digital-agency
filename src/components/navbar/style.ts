@@ -10,6 +10,7 @@ export const Logo = styled.a`
 	display: flex;
 	align-items: center;
 	gap: 0.8rem;
+	z-index: 1;
 
 	img {
 		height: 40px;
@@ -39,6 +40,7 @@ export const Menu = styled.ul`
 	display: flex;
 	align-items: center;
 	gap: 1rem;
+	z-index: 2;
 
 	li a {
 		color: ${(props) => props.theme.color.neutralWhite};

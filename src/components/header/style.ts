@@ -23,6 +23,7 @@ export const Info = styled.div`
 	display: flex;
 	flex-direction: column;
 	gap: 1rem;
+	z-index: 1;
 
 	h1 {
 		font-size: 3.5rem;

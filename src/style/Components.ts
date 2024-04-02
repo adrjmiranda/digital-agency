@@ -29,3 +29,13 @@ export const Button = styled.button`
 		);
 	}
 `;
+
+export const SessionTitle = styled.h2`
+	text-align: center;
+	font-size: 3rem;
+	font-weight: ${(props) => props.theme.fontWeight.fwMedium};
+	font-family: ${(props) => props.theme.fontFamily.lilitaOne};
+	color: ${(props) => props.theme.color.vividMagenta};
+	margin: 2rem 0;
+	text-transform: capitalize;
+`;
