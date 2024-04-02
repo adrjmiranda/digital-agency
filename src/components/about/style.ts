@@ -68,17 +68,3 @@ export const Img = styled.div`
 		max-width: 100%;
 	}
 `;
-
-export const WaveTop = styled.div`
-	img {
-		position: absolute;
-		top: 0;
-	}
-`;
-
-export const WaveBottom = styled.div`
-	img {
-		position: absolute;
-		bottom: 0;
-	}
-`;

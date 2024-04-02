@@ -46,9 +46,4 @@ export const Img = styled.div`
 	}
 `;
 
-export const WaveBottom = styled.div`
-	img {
-		position: absolute;
-		bottom: 0;
-	}
-`;
+

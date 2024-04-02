@@ -1,13 +1,15 @@
 import { FunctionComponent, ReactNode } from 'react';
 
+// Components
+import WaveTop from '../WaveTop';
+import WaveBottom from '../WaveBottom';
+
 // Style
 import * as Style from './style';
 import { SessionTitle, Wrapper } from '../../style/Components';
 
 // Images
 import OurAgency from '../../assets/img/our-agency.png';
-import WaveTop from '../../assets/img/wave-top.png';
-import WaveBottom from '../../assets/img/wave-bottom.png';
 
 // Icons
 import { SiAntdesign } from 'react-icons/si';
@@ -15,9 +17,7 @@ import { SiAntdesign } from 'react-icons/si';
 const About: FunctionComponent = (): ReactNode => {
 	return (
 		<Style.Container>
-			<Style.WaveTop>
-				<img src={WaveTop} alt='Wave Top' />
-			</Style.WaveTop>
+			<WaveTop />
 			<Wrapper>
 				<SessionTitle>Why choose us?</SessionTitle>
 				<Style.Content>
@@ -59,9 +59,7 @@ const About: FunctionComponent = (): ReactNode => {
 					</Style.Img>
 				</Style.Content>
 			</Wrapper>
-			<Style.WaveBottom>
-				<img src={WaveBottom} alt='Wave Bottom' />
-			</Style.WaveBottom>
+			<WaveBottom />
 		</Style.Container>
 	);
 };

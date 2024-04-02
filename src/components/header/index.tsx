@@ -2,6 +2,7 @@ import { FunctionComponent, ReactNode } from 'react';
 
 // Components
 import Navbar from '../navbar';
+import WaveBottom from '../WaveBottom';
 
 // Style
 import * as Style from './style';
@@ -9,7 +10,6 @@ import { Button, Wrapper } from '../../style/Components';
 
 // Images
 import HeroBg from '../../assets/img/hero-bg.png';
-import WaveBottom from '../../assets/img/wave-bottom.png';
 
 const Header: FunctionComponent = (): ReactNode => {
 	return (
@@ -32,9 +32,7 @@ const Header: FunctionComponent = (): ReactNode => {
 					</Style.Img>
 				</Style.Banner>
 			</Wrapper>
-			<Style.WaveBottom>
-				<img src={WaveBottom} alt='' />
-			</Style.WaveBottom>
+			<WaveBottom />
 		</Style.Container>
 	);
 };
