@@ -12,5 +12,6 @@ export const Content = styled.div`
 
 	@media screen and (max-width: 940px) {
 		flex-direction: column;
+		gap: 4rem;
 	}
 `;
