@@ -18,8 +18,8 @@ const About: FunctionComponent = (): ReactNode => {
 			<Style.WaveTop>
 				<img src={WaveTop} alt='Wave Top' />
 			</Style.WaveTop>
-			<SessionTitle>Why choose us?</SessionTitle>
 			<Wrapper>
+				<SessionTitle>Why choose us?</SessionTitle>
 				<Style.Content>
 					<Style.List>
 						<h4>Our difference</h4>

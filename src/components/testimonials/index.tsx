@@ -11,8 +11,8 @@ import TestimonialCard from '../testimonial-card';
 const Testimonials: FunctionComponent = (): ReactNode => {
 	return (
 		<Style.Container>
-			<SessionTitle>See what our customers are saying</SessionTitle>
 			<Wrapper>
+				<SessionTitle>See what our customers are saying</SessionTitle>
 				<Style.Content>
 					{testimonialsData.length > 0 &&
 						testimonialsData.map((data) => (
