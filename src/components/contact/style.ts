@@ -26,4 +26,17 @@ export const Content = styled.div`
 	ul li a:hover {
 		transform: scale(1.1);
 	}
+
+	@media screen and (max-width: 490px) {
+		ul li a {
+			width: 15vw;
+		}
+	}
+
+	@media screen and (max-width: 390px) {
+		ul li a {
+			width: 15vw;
+			padding: 0.5rem;
+		}
+	}
 `;
