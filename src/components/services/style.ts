@@ -7,10 +7,18 @@ export const Container = styled.div`
 		margin: 0 auto;
 		display: block;
 	}
+
+	@media screen and (max-width: 920px) {
+		padding: 0;
+	}
 `;
 
 export const Content = styled.div`
 	display: flex;
 	gap: 2rem;
 	margin: 4rem 0;
+
+	@media screen and (max-width: 920px) {
+		flex-direction: column;
+	}
 `;
