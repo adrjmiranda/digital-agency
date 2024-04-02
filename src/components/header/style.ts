@@ -1,5 +1,8 @@
 import styled from 'styled-components';
 
+// Keyframes
+import { SlideInLeft, SlideInRight } from '../../style/Keyframes';
+
 export const Container = styled.div`
 	min-height: 100vh;
 	background-image: linear-gradient(
@@ -36,6 +39,7 @@ export const Info = styled.div`
 	flex-direction: column;
 	gap: 1rem;
 	z-index: 1;
+	animation: ${SlideInLeft} 1s 0.3s;
 
 	h1 {
 		font-size: 3.5rem;
@@ -56,6 +60,7 @@ export const Info = styled.div`
 
 export const Img = styled.div`
 	flex: 65%;
+	animation: ${SlideInRight} 1s 0.3s;
 
 	img {
 		max-width: 100%;
