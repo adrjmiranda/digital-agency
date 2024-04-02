@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-	padding: 380px 0 80px;
+	padding: 380px 0 20px;
 	overflow: hidden;
 	background-image: linear-gradient(
 		to right,
@@ -14,6 +14,10 @@ export const Container = styled.div`
 export const Content = styled.div`
 	display: flex;
 	gap: 3rem;
+
+	@media screen and (max-width: 930px) {
+		flex-direction: column;
+	}
 `;
 
 export const Col = styled.div`
@@ -85,5 +89,20 @@ export const Col = styled.div`
 			border: ${(props) => props.theme.borderWidth.bwMedium} solid
 				${(props) => props.theme.color.vibrantIndigo};
 		}
+	}
+`;
+
+export const Info = styled.div`
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 4rem 0;
+	color: ${(props) => props.theme.color.neutralWhite};
+	border-top: ${(props) => props.theme.borderWidth.bwSmall} solid
+		${(props) => props.theme.color.neutralWhite};
+	margin-top: 4rem;
+
+	p span {
+		font-weight: ${(props) => props.theme.fontWeight.fwLarge};
 	}
 `;

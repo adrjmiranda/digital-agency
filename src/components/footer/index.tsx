@@ -12,6 +12,7 @@ import { Button, Wrapper } from '../../style/Components';
 import { TiLocationOutline } from 'react-icons/ti';
 import { GiRotaryPhone } from 'react-icons/gi';
 import { RiMailSendLine } from 'react-icons/ri';
+import { GiHearts } from 'react-icons/gi';
 
 const Footer: FunctionComponent = (): ReactNode => {
 	return (
@@ -53,6 +54,11 @@ const Footer: FunctionComponent = (): ReactNode => {
 						</form>
 					</Style.Col>
 				</Style.Content>
+				<Style.Info>
+					<p>
+						Made with <GiHearts /> by <span>Adriano Miranda</span> &copy; 2024
+					</p>
+				</Style.Info>
 			</Wrapper>
 		</Style.Container>
 	);
