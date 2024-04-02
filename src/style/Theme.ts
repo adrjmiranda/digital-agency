@@ -47,6 +47,7 @@ const Theme = {
 		bwSmall: '1px',
 		bwMedium: '2px',
 		bwLarge: '4px',
+		bwExtraLarge: '6px',
 	},
 	transitionType: {
 		trSmall: 'all 0.3s ease',

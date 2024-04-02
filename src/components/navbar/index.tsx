@@ -1,21 +1,15 @@
 import { FunctionComponent, ReactNode } from 'react';
 
+// Components
+import Logo from '../logo';
+
 // Style
 import * as Style from './style';
-
-// Images
-import Logo from '../../assets/img/logo.png';
 
 const Navbar: FunctionComponent = (): ReactNode => {
 	return (
 		<Style.Container>
-			<Style.Logo href='#'>
-				<img src={Logo} alt='Logo' />
-				<p>
-					<span>Digital</span>
-					<span>Agency</span>
-				</p>
-			</Style.Logo>
+			<Logo />
 			<Style.Menu>
 				<li>
 					<a href='#'>Home</a>
