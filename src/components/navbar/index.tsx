@@ -8,6 +8,7 @@ import * as Style from './style';
 
 // Icons
 import { ImMenu } from 'react-icons/im';
+import { GrClose } from 'react-icons/gr';
 
 const Navbar: FunctionComponent = (): ReactNode => {
 	const [visibilityMenu, setVisibilityMenu] = useState<boolean>(false);
@@ -19,7 +20,7 @@ const Navbar: FunctionComponent = (): ReactNode => {
 				type='button'
 				onClick={() => setVisibilityMenu(!visibilityMenu)}
 			>
-				<ImMenu />
+				{visibilityMenu ? <GrClose /> : <ImMenu />}
 			</Style.ToggleMenu>
 			<Style.Menu className={visibilityMenu ? 'toggle-menu' : ''}>
 				<li>
